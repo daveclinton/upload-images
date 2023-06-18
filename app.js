@@ -10,7 +10,6 @@ app.use(bodyParser.json())
 
 app.use('/upload-images', upload.array('image'), async (req, res)=> {
     const uploader = async (path) => await cloudinary.uploads(path, 'Images');
-
     if (req.method === 'POST'){
         const urls = []
         const files = req.files;
