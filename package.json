@@ -1,0 +1,10 @@
+{
+  "name": "expressupload",
+  "version": "1.0.0",
+  "description": "Uploading several images",
+  "main": "index.js",
+  "repository": "https://github.com/daveclinton/upload-images",
+  "author": "David Clinton",
+  "license": "MIT",
+  "private": null
+}
